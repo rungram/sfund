@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>Home | S-Fund</title>
+    <!-- TemplateEndEditable -->
+    <!-- core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/animate.min.css" rel="stylesheet">
+    <link href="../css/prettyPhoto.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="../images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../images/ico/apple-touch-icon-57-precomposed.png">
+    
+    
+     <script src="../js/jquery.filer.min.js"></script>
+	 <link href="../css/jquery.steps.css" rel="stylesheet">
+	 <link href="../css/jquery-ui.css" rel="stylesheet">
+	 <script src="../js/jquery.steps.min.js"></script>
+     <link href="../css/ModifyStyle.css" rel="stylesheet">
+     <link href="../css/jquery.filer-dragdropbox-theme.css" rel="stylesheet">
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+</head><!--/head-->
+
+<body class="homepage">
+
+    <header id="header">
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header menu">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../index.html"><img class="logo" src="../images/logo.png" alt="logo"></a>
+                    <div class="hidden-lg hidden-md hidden-sm padd-top">
+                        <div class="col-lg-7 col-md-7 phone-sp">
+                            <i class="fa fa-phone-square"></i> <span>0123 456 70 90</span>
+                        </div>
+                        <div class="col-lg-5 col-md-5 vaytien ">
+                            <img src="../images/btn_vay_tien_ngay.png" alt="">
+                        </div>
+                
+               		</div>
+                </div>
+                <div class="collapse navbar-collapse navbar-left">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="../index.html">Trang chủ</a></li>
+                        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lĩnh vực hoạt động <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#.html">Blog Single</a></li>
+                                <li><a href="#.html">Pricing</a></li>
+                                <li><a href="#.html">404</a></li>
+                                <li><a href="#.html">Shortcodes</a></li>
+                            </ul>
+                        </li>
+                        <!--<li><a href="portfolio.html">Portfolio</a></li>-->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hướng dẫn <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#.html">Blog Single</a></li>
+                                <li><a href="#.html">Pricing</a></li>
+                                <li><a href="#.html">404</a></li>
+                                <li><a href="#.html">Shortcodes</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../tin-tuc.html">Tin tức</a></li> 
+                        <li><a href="../lien-he.html">Liên hệ</a></li>                        
+                    </ul>
+                </div>
+                <div class="pull-right">
+                	<div class="col-lg-7 phone-sp hidden-xs">
+                		<i class="fa fa-phone-square"></i> <span>0123 456 70 90</span>
+                    </div>
+                    <div class="col-lg-5 hidden-xs vaytien">
+                    	<img src="../images/btn_vay_tien_ngay.png" alt="">
+                    </div>
+                
+                </div>
+                
+            </div><!--/.container-->
+        </nav><!--/nav-->
+		
+    </header><!--/header--><!-- TemplateBeginEditable name="EditRegion3" -->
+    <section id="main-slider" class="no-margin">
+      <div class="carousel slide">
+        <ol class="carousel-indicators">
+          <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+          <li data-target="#main-slider" data-slide-to="1"></li>
+          <li data-target="#main-slider" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active" style="background-image: url(../images/slider/bg1.jpg)">
+            <div class="container"></div>
+          </div>
+          <!--/.item-->
+          <div class="item" style="background-image: url(../images/slider/bg2.jpg)">
+            <div class="container">
+              <div class="row slide-margin">
+                <div class="col-sm-6">
+                  <div class="carousel-content">
+                    <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+                    <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
+                    <a class="btn-slide animation animated-item-3" href="#">Read More</a> </div>
+                </div>
+                <div class="col-sm-6 hidden-xs animation animated-item-4">
+                  <div class="slider-img"> <img src="../images/slider/img2.png" class="img-responsive"> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.item-->
+          <div class="item" style="background-image: url(../images/slider/bg3.jpg)">
+            <div class="container">
+              <div class="row slide-margin">
+                <div class="col-sm-6">
+                  <div class="carousel-content">
+                    <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+                    <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaquhe ipsa...</h2>
+                    <a class="btn-slide animation animated-item-3" href="#">Read More</a> </div>
+                </div>
+                <div class="col-sm-6 hidden-xs animation animated-item-4">
+                  <div class="slider-img"> <img src="../images/slider/img3.png" class="img-responsive"> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.item-->
+        </div>
+        <!--/.carousel-inner-->
+      </div>
+      <!--/.carousel-->
+      <a class="prev hidden-xs" href="#main-slider" data-slide="prev"> <i class="fa fa-chevron-left"></i> </a> <a class="next hidden-xs" href="#main-slider" data-slide="next"> <i class="fa fa-chevron-right"></i> </a> </section>
+    <!--/#main-slider-->
+    <section id="feature" >
+      <div class="container bg_feature">
+        <div class="section-title wow fadeInDown"> <span class="tag tag-colored">Vì sao chọn S-Fund</span>
+          <p class="lead">Lãi suất/Phí thấp nhất thị trường – Yên tâm tài sản được niêm phong đúng quy trình – Có tiền ngay </p>
+        </div>
+        <div class="row">
+          <div class="features why">
+            <div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <div class="feature-wrap"> <img class="img-responsive" src="../images/1.png">
+                <h2>Lãi suất cạnh tranh </h2>
+                <h3>Sfund luôn có đội ngũ điều tra thị trường nên lãi suất lúc nào cũng tốt nhất</h3>
+              </div>
+            </div>
+            <!--/.col-md-3-->
+            <div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <div class="feature-wrap"> <img class="img-responsive" src="../images/2.png">
+                <h2>Yên tâm tài sản</h2>
+                <h3>Tài sản được kiểm tra xác nhận kỹ - Cho vào nơi bảo mật – Niêm phong bằng tem dưới sự chứng kiến của khách hàng – Cho vào nơi lưu giữ tuyệt đối an toàn</h3>
+              </div>
+            </div>
+            <!--/.col-md-4-->
+            <div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <div class="feature-wrap"> <img class="img-responsive" src="../images/3.png">
+                <h2>Phục vụ thân thiện </h2>
+                <h3>Thái độ làm việc của đội ngũ S-Fund luôn khiến bạn hài lòng</h3>
+              </div>
+            </div>
+            <!--/.col-md-4-->
+            <div class="col-md-3 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <div class="feature-wrap"> <img class="img-responsive " src="../images/4.png">
+                <h2>Nhanh lấy tiền </h2>
+                <h3>Thủ tục đơn giản, nhận tiền nhanh chóng, </h3>
+              </div>
+            </div>
+            <!--/.col-md-4-->
+          </div>
+          <!--/.services-->
+        </div>
+        <!--/.row-->
+      </div>
+      <!--/.container-->
+    </section>
+    <!--/#feature-->
+    <section id="services" class="service-item">
+      <div class="container">
+        <div class="section-title wow fadeInDown"> <span class="tag tag-colored">Lĩnh vực hoạt động</span>
+          <p class="lead">SFund hỗ trợ tài chính linh hoạt Cầm cố/Thế chấp tất cả tài sản có giá trị quy đổi và Cung cấp các dịch vụ tài chính chất lượng cao </p>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-6">
+            <div class="media services-wrap wow fadeInDown">
+              <div class="pull-left"> <img class="img-responsive" src="../images/services/services1.png"> </div>
+              <div class="media-body">
+                <h3 class="media-heading">Cho vay online </h3>
+                <span>thủ tục vay vốn rất đơn giản và hợp lý. Chúng tôi xây dựng cơ chế cấp tín dụng một cách linh động</span> </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <div class="media services-wrap wow fadeInDown">
+              <div class="pull-left"> <img class="img-responsive" src="../images/services/services6.png"> </div>
+              <div class="media-body">
+                <h3 class="media-heading">Cầm cố tài sản</h3>
+                <span>Cầm tất cả các loại tài sản có giá trị như: Điện thoại, Laptop, máy ảnh, xe máy, oto, nhà đất, đồ gia dụng, trang sức …</span> </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <div class="media services-wrap wow fadeInDown">
+              <div class="pull-left"> <img class="img-responsive" src="../images/services/services5.png"> </div>
+              <div class="media-body">
+                <h3 class="media-heading">Giao dịch thẻ ngân hàng</h3>
+                <span>Hỗ trợ sử dụng thẻ tín dụng linh hoạt, phí thấp nhất thị trường</span> </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <div class="media services-wrap wow fadeInDown">
+              <div class="pull-left"> <img class="img-responsive" src="../images/services/services4.png"> </div>
+              <div class="media-body">
+                <h3 class="media-heading">Tư vấn dịch vụ tài chính </h3>
+                <span> Tư vấn vay vốn ngân hàng và các tổ chức tài chính khác;<br>
+                  Tư vấn kinh doanh nhà đất; <br>
+                  Tư vấn pháp lý trong kinh doanh.</span> </div>
+            </div>
+          </div>
+        </div>
+        <!--/.row-->
+      </div>
+      <!--/.container-->
+    </section>
+    <!--/#services-->
+    <div class="clearfix"></div>
+    <section id="recent-works">
+      <div class="container">
+        <div class="section-title wow fadeInDown"> <span class="tag tag-colored">S-Fund nhận cầm những gì?</span>
+          <p class="lead">Tất cả tài sản đều có giá trị quy đổi, hãy liên hệ ngay cho chúng tôi!</p>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-2 col-md-2">
+            <div class="recent-work-wrap"> <img class="img-responsive" src="../images/portfolio/recent/item1.png" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="#">Xe máy</a></h3>
+                  <a class="preview" href="../images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2">
+            <div class="recent-work-wrap"> <img class="img-responsive" src="../images/portfolio/recent/item2.png" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="#">Business theme</a></h3>
+                  <a class="preview" href="../images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2">
+            <div class="recent-work-wrap"> <img class="img-responsive" src="../images/portfolio/recent/item3.png" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="#">Business theme </a></h3>
+                  <a class="preview" href="../images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2">
+            <div class="recent-work-wrap"> <img class="img-responsive" src="../images/portfolio/recent/item4.png" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="#">Business theme </a></h3>
+                  <a class="preview" href="../images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2">
+            <div class="recent-work-wrap"> <img class="img-responsive" src="../images/portfolio/recent/item6.png" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="#">Business theme </a></h3>
+                  <a class="preview" href="../images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2">
+            <div class="recent-work-wrap"> <img class="img-responsive" src="../images/portfolio/recent/item7.png" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="#">Business theme </a></h3>
+                  <a class="preview" href="../images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2">
+            <div class="recent-work-wrap"> <img class="img-responsive" src="../images/portfolio/recent/item8.png" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="#">Business theme </a></h3>
+                  <a class="preview" href="../images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2">
+            <div class="recent-work-wrap"> <img class="img-responsive" src="../images/portfolio/recent/item9.png" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="#">Business theme</a></h3>
+                  <a class="preview" href="../images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2">
+            <div class="recent-work-wrap"> <img class="img-responsive" src="../images/portfolio/recent/item10.png" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="#">Business theme</a></h3>
+                  <a class="preview" href="../images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-md-2">
+            <div class="recent-work-wrap"> <img class="img-responsive" src="../images/portfolio/recent/item12.png" alt="">
+              <div class="overlay">
+                <div class="recent-work-inner">
+                  <h3><a href="#">Business theme</a></h3>
+                  <a class="preview" href="../images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/.row-->
+      </div>
+      <!--/.container-->
+    </section>
+    <!--/#recent-works-->
+    <!--<section id="middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 wow fadeInDown">
+                    <div class="skill">
+                        <h2>Our Skills</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                        <div class="progress-wrap">
+                            <h3>Graphic Design</h3>
+                            <div class="progress">
+                              <div class="progress-bar  color1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                                <span class="bar-width">85%</span>
+                              </div>
+
+                            </div>
+                        </div>
+
+                        <div class="progress-wrap">
+                            <h3>HTML</h3>
+                            <div class="progress">
+                              <div class="progress-bar color2" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                               <span class="bar-width">95%</span>
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="progress-wrap">
+                            <h3>CSS</h3>
+                            <div class="progress">
+                              <div class="progress-bar color3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                <span class="bar-width">80%</span>
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="progress-wrap">
+                            <h3>Wordpress</h3>
+                            <div class="progress">
+                              <div class="progress-bar color4" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                <span class="bar-width">90%</span>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!--/.col-sm-6-->
+    <!--<div class="col-sm-6 wow fadeInDown">
+                    <div class="accordion">
+                        <h2>Why People like us?</h2>
+                        <div class="panel-group" id="accordion1">
+                          <div class="panel panel-default">
+                            <div class="panel-heading active">
+                              <h3 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1">
+                                  Lorem ipsum dolor sit amet
+                                  <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                              </h3>
+                            </div>
+
+                            <div id="collapseOne1" class="panel-collapse collapse in">
+                              <div class="panel-body">
+                                  <div class="media accordion-inner">
+                                        <div class="pull-left">
+                                            <img class="img-responsive" src="images/accordion1.png">
+                                        </div>
+                                        <div class="media-body">
+                                             <h4>Adipisicing elit</h4>
+                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                        </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h3 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo1">
+                                  Lorem ipsum dolor sit amet
+                                  <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                              </h3>
+                            </div>
+                            <div id="collapseTwo1" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h3 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseThree1">
+                                  Lorem ipsum dolor sit amet
+                                  <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                              </h3>
+                            </div>
+                            <div id="collapseThree1" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h3 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">
+                                  Lorem ipsum dolor sit amet
+                                  <i class="fa fa-angle-right pull-right"></i>
+                                </a>
+                              </h3>
+                            </div>
+                            <div id="collapseFour1" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
+                              </div>
+                            </div>
+                          </div>
+                        </div><!--/#accordion1-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div><!--/.row-->
+    <!--</div><!--/.container-->
+    <!--</section>-->
+    <!--/#middle-->
+    <section id="content" class="bg_xam">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-8 wow fadeInDown">
+            <h2>Ý kiến khách hàng</h2>
+            <div class="tab-wrap">
+              <div class="media">
+                <div class="parrent pull-left">
+                  <ul class="nav nav-tabs nav-stacked">
+                    <li class=""><a href="#tab1" data-toggle="tab" class="analistic-01">Trang Kim Oanh</a></li>
+                    <li class="active"><a href="#tab2" data-toggle="tab" class="analistic-02">Nguyễn Thành Trung</a></li>
+                    <li class=""><a href="#tab3" data-toggle="tab" class="tehnical">Trần Bằng Kiều</a></li>
+                    <li class=""><a href="#tab4" data-toggle="tab" class="tehnical">Vũ Phương Ngân</a></li>
+                    <li class=""><a href="#tab5" data-toggle="tab" class="tehnical">Thái Minh Phước</a></li>
+                  </ul>
+                </div>
+                <div class="parrent media-body">
+                  <div class="tab-content">
+                    <div class="tab-pane fade" id="tab1">
+                      <div class="media">
+                        <div class="pull-left"> <img class="img-responsive" src="../images/tab2.png"> </div>
+                        <div class="media-body">
+                          <h2>Adipisicing elit</h2>
+                          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade active in" id="tab2">
+                      <div class="media">
+                        <!--<div class="pull-left">
+                                                <img class="img-responsive" src="images/tab1.png">
+                                            </div>-->
+                        <div class="media-body">
+                          <h2>Nguyễn Thành Trung, chủ doanh nghiệp</h2>
+                          <p>Thực sự trước khi vào cửa hàng cầm đồ S-Fund tôi chỉ nghĩ rằng cầm đồ ở Việt Nam toàn thành phần xăm trổ, thiếu thiện cảm, dân anh chị. Nhưng khi đến cửa hàng S-Fund tôi thấy cửa hàng to đẹp, nhân viên thân thiện ăn mặc như ngân hàng tôi rất có thiện cảm. Lần đầu tiên tôi thấy một dịch vụ cầm đồ lại thân thiện như vậy.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab3">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
+                    </div>
+                    <div class="tab-pane fade" id="tab4">
+                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words</p>
+                    </div>
+                    <div class="tab-pane fade" id="tab5">
+                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures,</p>
+                    </div>
+                  </div>
+                  <!--/.tab-content-->
+                </div>
+                <!--/.media-body-->
+              </div>
+              <!--/.media-->
+            </div>
+            <!--/.tab-wrap-->
+            <p class="pull-right"><a href="#">Xem thêm</a></p>
+          </div>
+          <!--/.col-sm-6-->
+          <div class="col-xs-12 col-sm-4 wow fadeInDown">
+            <div class="testimonial">
+              <h2>TIN TỨC MỚI NHẤT</h2>
+              <div class="media testimonial-inner">
+                <div class="pull-left"> <img class="img-responsive img-circle thum-news" src="../images/news1.jpg"> </div>
+                <div class="media-body">
+                  <h2>Tiết lộ bí quyết giúp "tiền đẻ ra tiền"</h2>
+                  <p>Tiết lộ bí quyết giúp "tiền đẻ ra tiền"Một cách khác mà tiền có thể làm việc cho bạn chính là tăng giá trị của bạn trên thị trường việc làm. Nếu bạn sắp xếp đượ...</p>
+                  <span><a href="#">Chi tiết</a></span> </div>
+              </div>
+              <div class="media testimonial-inner">
+                <div class="pull-left"> <img class="img-responsive img-circle thum-news" src="../images/news3.jpg"> </div>
+                <div class="media-body">
+                  <h2>Cả thế giới nể phục cách tiết kiệm của người Nhật</h2>
+                  <p>Cả thế giới nể phục cách tiết kiệm của người Nhật.Nhật Bản phát triển một cách thần kì ...</p>
+                  <span><a href="#">Chi tiết</a></span> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/.row-->
+      </div>
+      <!--/.container-->
+    </section>
+    <!--/#content-->
+    <!--<section id="partner">
+        <div class="container">
+            <div class="center wow fadeInDown">
+                <h2>Our Partners</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>    
+
+            <div class="partners">
+                <ul>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/partners/partner1.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="images/partners/partner2.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="images/partners/partner3.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="images/partners/partner4.png"></a></li>
+                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="images/partners/partner5.png"></a></li>
+                </ul>
+            </div>        
+        </div><!--/.container-->
+    <!--</section>-->
+    <!--/#partner-->
+    <!-- TemplateEndEditable -->
+    <section id="bottom">
+        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="row">
+                <!--/.col-md-3-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="col-lg-12">
+                        <div class="widget">
+                            <h3>THÔNG TIN LIÊN HỆ</h3>
+                            <h4>Công ty Tài chính Cổ phần Thương mại Dịch vụ S-FUND</h4>
+                            <address>
+                                        <p>111 Nguyễn Trãi Q5, Tp. HCM</p>
+                                        <p>Phone: 670-898-2847 <br>
+                                        Email Address: info@domain.com</p>
+                            </address>
+                            
+                        </div>  
+                    </div>
+                    <div class="col-lg-12">
+                       <div class="social">
+                            <ul class="social-share">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                            </ul>
+                            <div class="search">
+                                <form role="form">
+                                    <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                                    <i class="fa fa-search"></i>
+                                </form>
+                           </div>
+                       </div>
+                       </div>  
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Chính Sách</h3>
+                        <ul>
+                            <li><a href="#">Điều khoản và điều kiện</a></li>
+                            <li><a href="#">Hướng dẫn mua hàng</a></li>
+                            <li><a href="#">Chính sách hợp tác</a></li>
+                            <li><a href="#">Quy định bảo quản tài sản</a></li>
+                            <li><a href="#">Quy định bảo mật thông tin</a></li>
+
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-2 col-sm-6">
+                    <div class="widget">
+                        <ul>
+                          Trang chủ
+                          <li><a href="#"></a></li>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Lĩnh vực hoạt động </a></li>
+                            <li><a href="#">Tin tức</a></li>
+                            <li><a href="#">Hướng dẫn</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                        </ul>
+                    </div>    
+                </div><!--/.col-md-2-->
+                <div class="col-md-2 col-sm-6">
+                    <div class="widget text-center">
+                        <ul>
+                          <img class="img-responsive" src="../images/hotline.png">
+                          <li><a href="#"></a></li>
+                            <li><a href="#">1900 1080</a></li>
+                            <li><a href="#">19001081</a></li>
+                      </ul>
+                    </div>    
+                </div><!--/.col-md-2-->
+            </div>
+        </div>
+    </section><!--/#bottom-->
+
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <img src="../images/icon_dieukhoandieukien.png" alt="">
+                                </span>Điều Kiện Và Điều Khoản
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>
+                                    <img src="../images/icon_chinhsachbaomat.png" alt="">
+                                </span>Chính Sách Bảo Mật Thông Tin
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/cam-do/bao-quan-tai-san.html">
+                                <span>
+                                    <img src="../images/icon_chinhsachbaoquan.png" alt="">
+                                </span>Chính Sách Bảo Quản Tài Sản
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Danh-sach-cua-hang">
+                                <span>
+                                    <img src="../images/icon_danhsachcuahang.png" alt="">
+                                </span>Các Cửa Hàng Của S-Fund
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/tuyen-dung-f88">
+                                <span>
+                                    <img src="../images/icon_tuyendung.png" alt="">
+                                </span>Tuyển dụng
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    </footer><!--/#footer-->
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.prettyPhoto.js"></script>
+    <script src="../js/jquery.isotope.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/wow.min.js"></script>
+</body>
+</html>
