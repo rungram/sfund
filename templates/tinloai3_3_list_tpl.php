@@ -25,29 +25,32 @@
 	<div class="container">
 	<div class="col-lg-12">
 		<div class="col-lg-8 col-sm-8 col-md-6 col-xs-12">
-		<h2 class="box-header">
-			<?=$result_tinll_name["ten_vi"]?>
-		</h2>
-		<div class="panel-group border" id="accordion">
+		<h2 class="box-header"><?=$result_tinll_name["ten_vi"]?></h2>
 		<?php
-		 for ($i=0;$i<count($result_tinll);$i++)
-		 {
-		?>
-			<div class="panel panel-default">
-			<div class="panel-heading"> <a	href="tin-tuc-detail/<?=$result_tinll[$i]['tenkhongdau']?>-<?=$result_tinll[$i]['id']?>.html">
-				<h4 class="panel-title">
-				<?=$result_tinll[$i]["ten_vi"]?>
-				</h4>
-				</a> </div>
-			<div id="collapse<?=$i?>" class="panel-collapse collapse in">
-				<div class="panel-body">
-				<?=$result_tinll[$i]["mota_vi"]?>
-				</div>
-			</div>
-			</div>
+		 for($i=0;$i<count($result_tinl);$i++)
+		 { 
+		 ?>
+		<div class="media tintuc wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
+			<div class="pull-left"> <img class="img-responsive" src="upload/tinloai1_1/<?=$result_tinl[$i]['thumb']?>" alt="<?=$result_tinl[$i]['ten_vi']?>" alt="<?=$result_tinl[$i]["ten_vi"]?>" "> </div>
+			<div class="media-body"><a href="tin-tuc-detail/<?=$result_tinl[$i]['tenkhongdau']?>-<?=$result_tinl[$i]['id']?>.html">
+			<h3 class="media-heading">
+				<?=$result_tinl[$i]['ten_vi']?>
+			</h3>
+			<span>
+			<?=$result_tinl[$i]['mota_vi']?>
+			</span></a> </div>
+		</div>
 		<?php
-		}
-		?>
+					 } 
+						?>
+		<div class="pagination">
+			<nav aria-label="Page navigation">
+			<div class="pagination-container">
+				<ul class="pagination">
+				<?php echo $paging['paging'];?>
+				</ul>
+			</div>
+			</nav>
 		</div>
 		</div>
 		<?php include _template."layout/content_right.php"; ?>

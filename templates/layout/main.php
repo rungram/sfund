@@ -58,16 +58,11 @@
 		<li data-target="#main-slider" data-slide-to="0" class="active"></li>
 		<li data-target="#main-slider" data-slide-to="1"></li>
 		<li data-target="#main-slider" data-slide-to="2"></li>
-		<li data-target="#main-slider" data-slide-to="3"></li>
 	</ol>
 	<div class="carousel-inner">
     	<!--/.item-->
-		<div class="item active" style="cursor:pointer; background-image: url(images/slider/bg2.jpg)" onclick="window.location.href ='http://sfund.vn/giao-dich-ngan-hang-rut-tien-mat-the-tin-dung.html'">
-		<div class="container">
-		</div>
-		</div>
         
-		<div class="item" style="cursor:pointer; background-image: url(images/slider/bg1.jpg)" onclick="window.location.href ='http://sfund.vn/giao-dich-ngan-hang-rut-tien-mat-the-tin-dung.html'">        
+		<div class="item active" style="cursor:pointer; background-image: url(images/slider/bg1.jpg)" onclick="window.location.href ='http://sfund.vn/giao-dich-ngan-hang-rut-tien-mat-the-tin-dung.html'">        
 		<div class="container"></div>
 		</div>
 		
