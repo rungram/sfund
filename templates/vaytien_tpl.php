@@ -113,7 +113,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' )
     		$mail->Body = $body;
     		$mail->AddAddress($to);
     		
-    		$mail->AddCC('dichvudicho24h@gmail.com',"Thông tin đơn hàng khách đặt.");// Ấn định email sẽ nhận khi người dùng reply lại.
+    		$mail->AddCC('sfund.vn@gmail.com',"Thông tin đơn hàng khách đặt.");// Ấn định email sẽ nhận khi người dùng reply lại.
 //     		$mail->AddReplyTo('dichvudichogiare@gmail.com',"Thông tin đơn hàng khách đặt.");// Ấn định email sẽ nhận khi người dùng reply lại.
 //     		$mail->AddReplyTo('Thief4s1@gmail.com ',"Thông tin đơn hàng khách đặt.");// Ấn định email sẽ nhận khi người dùng reply lại.
     		$mail->AddCC('Thief4s1@gmail.com ',"Thông tin đơn hàng khách đặt.");// Ấn định email sẽ nhận khi người dùng reply lại.

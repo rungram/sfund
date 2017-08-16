@@ -146,7 +146,7 @@
 			<ul>
 			<li class="banquyen"><a class="pull-left" href="#">Cho vay cầm đồ/thế chấp</a><img class="pull-right img-responsive" src="images/logo1.png"></li>
 			<li class="banquyen"><a class="pull-left"	href="#">Phòng cháy chữa cháy</a><img class="pull-right img-responsive" src="images/logo2.png"></li>
-			<li class="banquyen no-bor-bot" ><a	class="pull-left" href="#">An ninh trật tự</a> <img class="pull-right img-responsive" src="images/logo3.png"> </li>
+			<li class="banquyen no-bor-bot" ><a	class="pull-left" href="tin-tuc-detail/chung-nhan-du-dieu-kien-an-ninh-trat-tu-29.html">An ninh trật tự</a> <img class="pull-right img-responsive" src="images/logo3.png"> </li>
 			</ul>
             <h1 style="font-size:10px"> <a href="giao-dich-ngan-hang-rut-tien-mat-the-tin-dung.html">rut the tien mat, rut tien the tin dung, rút thẻ tiền mặt, rút tiền thẻ tín dụng</a> </h1>
 		</div>

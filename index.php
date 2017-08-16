@@ -34,7 +34,7 @@
   addtocart($pid,$q);
   redirect("http://$config_url/gio-hang.html");
   }
-  $config_url='localhost:81/Sfund';
+  $config_url='sfund.vn';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -43,18 +43,19 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="">
-	<title>S-Fund | Tài chính thông minh</title>
+	<title>S-Fund | Tài chính thông minh  | Rút tiền thẻ tín dụng</title>
 	
-	<meta name="description" content="rút thẻ tiền mặt, rut the tien mat, rút tiền thẻ tín dụng, rut tien the tin dung, Cho vay cầm cố/thế chấp tài sản online, rút tiền mặt từ thể tín dụng ngân hàng, Tư vấn sử dụng thẻ tín dụng linh hoạt, Tư vấn, môi giới kinh doanh Bất động sản, Tư vấn vay vốn ngân hàng...." />
+	<meta name="description" content="Sfund cung cấp các dịch vụ: rút tiền mặt từ thẻ tín dụng ngân hàng, Cho vay cầm cố, thế chấp tài sản online, Tư vấn môi giới kinh doanh Bất động sản, vay vốn ngân hàng...Hotline: 0908 042 740" />
 	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
 	<meta property="og:title" content="Cho vay cầm cố/thế chấp tài sản online, Tư vấn sử dụng thẻ tín dụng linh hoạt, Tư vấn, môi giới kinh doanh Bất động sản, Tư vấn vay vốn ngân hàng...." />
 	<meta property="og:description" content="Cho vay cầm cố/thế chấp tài sản online, Tư vấn sử dụng thẻ tín dụng linh hoạt, Tư vấn, môi giới kinh doanh Bất động sản, Tư vấn vay vốn ngân hàng...." />
 	<meta property="og:image" content="" />
 	<meta property="og:video" content=""/>
-	<meta name="keywords" itemprop="keywords" content="rút thẻ tiền mặt, rut the tien mat, rút tiền thẻ tín dụng, rut tien the tin dung, Cho vay cầm cố/thế chấp tài sản online, Tư vấn sử dụng thẻ tín dụng linh hoạt, Tư vấn, môi giới kinh doanh Bất động sản, Tư vấn vay vốn ngân hàng...." />
-	<meta name="news_keywords" content="rút thẻ tiền mặt, rut the tien mat, rút tiền thẻ tín dụng, rut tien the tin dung, Cho vay cầm cố/thế chấp tài sản online, Tư vấn sử dụng thẻ tín dụng linh hoạt, Tư vấn, môi giới kinh doanh Bất động sản, Tư vấn vay vốn ngân hàng...." />
-<!-- 	<link rel="canonical" href="http://sfund.vn/" /> -->
+	<meta name="keywords" itemprop="keywords" content="rút thẻ tiền mặt, rut the tien mat, rút tiền thẻ tín dụng, rut tien the tin dung, Cho vay cầm cố thế chấp tài sản online, Tư vấn sử dụng thẻ tín dụng linh hoạt, Tư vấn môi giới kinh doanh Bất động sản, Tư vấn vay vốn ngân hàng" />
+	<meta name="news_keywords" content="rút thẻ tiền mặt, rut the tien mat, rút tiền thẻ tín dụng, rut tien the tin dung, Cho vay cầm cố thế chấp tài sản online, Tư vấn sử dụng thẻ tín dụng linh hoạt, Tư vấn môi giới kinh doanh Bất động sản, Tư vấn vay vốn ngân hàng" />
+	<link rel="canonical" href="http://sfund.vn/" />
 <!-- 	<link rel="alternate" media="handheld" href="http://sfund.vn/" /> -->
+<!-- 	<link rel=”canonical” href=” http://sfund.vn/giao-dich-ngan-hang-rut-tien-mat-the-tin-dung.html”/> -->
 	<meta name="robots" content="index,follow,noodp" />
 	<meta name="robots" content="noarchive">
 	
